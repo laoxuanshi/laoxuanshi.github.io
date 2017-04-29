@@ -2,11 +2,11 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://LinZhengLearn.github.io
+url: http://laoxuanshi.github.io
 date_format: "ordinal"
-title: Marvin's Blog
+title: Lao's Blog
 subtitle: "Learning to Think, Thinking to Learn"
-description: "林政的个人博客"
+description: "劳炫施的个人博客"
 keywords: 
 favicon: /favicon.ico
 timezone: Asia/ShangHai
@@ -16,10 +16,10 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zheng Lin
-github_username: LinZhengLearn
+author: Xuanshi Lao
+github_username: laoxuanshi
 location: BeiJing, China
-email:  linzhengbupt@gmail.com
+email:  1046290482@qq.com
 
 # ---------------- #
 #    Navigation    #

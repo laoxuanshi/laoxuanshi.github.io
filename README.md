@@ -1,6 +1,6 @@
 # 个人博客
 
-我的个人博客访问地址访问：<https://linzhenglearn.github.io/>。
+我的个人博客访问地址访问：<https://laoxuanshi.github.io/>。
 
 
 ## 配置介绍
