@@ -1,0 +1,25 @@
+---
+layout: post
+title: 在Webstorm使用Github
+categories: Webstorm Github 前端开发
+description: some word here
+keywords: Webstorm Github
+---
+
+Webstorm是前端开发中较常用的软件，它集成了Github的管理，可以让我们不用总是输入Git命令来同步项目，十分方便快捷，下面介绍如何在在Webstorm使用Github。
+
+
+## Webstorm中配置Github
+1. 在Webstorm界面选择File -> Settings，在左上角搜索Github，填入你Github的账户名和密码（没有就去注册一个），然后点Test看看是否连接成功。
+![](/images/前端/w1.png)
+2. 成功连接后，如下图配置好到Git的安装目录。如果没有安装，先去https://code.google.com/p/msysgit/downloads/list下载安装Git。
+![](/images/前端/w2.jpg)
+3. 配置本机SSH。先找到Git的安装目录中打开“Git Bash”
+![](/images/前端/w3.jpg)
+在命令行输入`ssh-keygen -t rsa -C "your_email@youremail.com"`创建一个新的SSH，按两次回车即可生成。成功后，找到用户目录下的C:\Users\你的计算机用户名.ssh\id_rsa.pub，用记事本打开，并复制里面的SSH码。
+![](/images/前端/w4.jpg)
+在浏览器打开Github，如下图进入SSH添加页面，输入Title，下面的Ke粘贴刚刚复制的SSH key：
+![](/images/前端/w5.jpg)
+
+## Webstorm中使用Github
+1. 在Webstorm界面选择File -> Settings，在左上角搜索Github，填入你Github的账户名和密码（没有就去注册一个），然后点Test看看是否连接成功。
