@@ -8,7 +8,7 @@ keywords: Javascript模块化
 
 ### AMD规范
 代表是require.js，
-require()异步加载模块，它指定的回调函数，只有前面的模块都加载成功后，才会运行，解决了依赖性的问题。
+require()异步加载模块，它指定的回调函数，只有前面的模块都加载成功后，才会运行，解决了依赖性的问题。<br>
 ![](/images/web/w15.png)
 <br>
 
