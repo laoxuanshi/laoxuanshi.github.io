@@ -10,12 +10,12 @@ keywords: Javascript模块化
 代表是require.js，
 require()异步加载模块，它指定的回调函数，只有前面的模块都加载成功后，才会运行，解决了依赖性的问题。
 ![](/images/web/w15.png)
-</br>
+<br>
 
 define方法用于定义模块，此模块必须返回一个对象，供其他模块调用
-</br>
+<br>
 ![](/images/web/w16.png)
-</br>
+<br>
 require.js提供了一个优化工具optimizer，当模块部署完毕以后，可以用这个工具将多个模块合并在一个文件中，减少HTTP请求数。
 
 
